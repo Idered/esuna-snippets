@@ -4,7 +4,7 @@ Sublime Text snippets for [Esuna Framework](http://idered.pl/esuna)
 
 **esuna-comment1**
 
-```
+```CSS
 
 
 /** $1
@@ -15,7 +15,7 @@ $2
 
 **esuna-comment2**
 
-```
+```CSS
 
 /** ${1:%|=}${2:[$3]} $4 */
 /*------------------------------------*/
@@ -24,7 +24,7 @@ $5
 
 **esuna-comment3**
 
-```
+```CSS
 
 /*------------------------------------*/
 
@@ -33,7 +33,7 @@ $1
 
 **esuna-open-graph**
 
-```
+```CSS
 <!-- @see ogp.me -->
 <meta property="og:title" content="$1" />
 <meta property="og:type" content="${2:website}" />
@@ -43,7 +43,7 @@ $1
 
 **esuna-twitter-card**
 
-```
+```CSS
 <!-- @see dev.twitter.com/docs/cards -->
 <meta property="twitter:title" content="$1">
 <meta property="twitter:creator" content="@$2">
@@ -54,7 +54,7 @@ $1
 
 **esuna-dns-prefetch**
 
-```
+```CSS
 <!-- @see developer.mozilla.org/en-US/docs/Controlling_DNS_prefetching -->
 <link rel="dns-prefetch" href="//p.twitter.com">
 <link rel="dns-prefetch" href="//cdn.api.twitter.com">
@@ -66,7 +66,7 @@ $1
 
 **esuna-load-scripts**
 
-```
+```CSS
 <div id="fb-root"></div>
 <script>
 	var scripts = {
