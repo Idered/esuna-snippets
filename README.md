@@ -2,6 +2,19 @@
 
 Sublime Text snippets for [Esuna Framework](http://idered.pl/esuna)
 
+## Instalation
+
+**Using Package Control**
+
+This method is curently not available but soon, it'll be.
+
+**Manual instalation**
+
+[Download](https://github.com/Idered/esuna-snippets/archive/master.zip) this repo. In Sublime Text go to: Preferences->Browse Packages... Create there new folder called <code>Esuna Framework Snippets</code> and paste downloaded archive content.
+
+
+## Snippets
+
 **esuna-comment1**
 
 ```CSS
@@ -13,6 +26,7 @@ Sublime Text snippets for [Esuna Framework](http://idered.pl/esuna)
 $2
 ```
 
+
 **esuna-comment2**
 
 ```CSS
@@ -21,6 +35,7 @@ $2
 /*------------------------------------*/
 $5
 ```
+
 
 **esuna-comment3**
 
@@ -31,6 +46,7 @@ $5
 $1
 ```
 
+
 **esuna-open-graph**
 
 ```CSS
@@ -40,6 +56,7 @@ $1
 <meta property="og:description" content="$3" />
 <meta property="og:url" content="$4">
 ```
+
 
 **esuna-twitter-card**
 
@@ -52,6 +69,7 @@ $1
 <meta property="twitter:url" content="$5">
 ```
 
+
 **esuna-dns-prefetch**
 
 ```CSS
@@ -63,6 +81,7 @@ $1
 <link rel="dns-prefetch" href="//connect.facebook.net">
 <link rel="dns-prefetch" href="//platform.twitter.com">
 ```
+
 
 **esuna-load-scripts**
 

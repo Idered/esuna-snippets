@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<!-- @see html5doctor.com/blockquote-q-cite -->
+<blockquote>
+	<p>$1</p>
+	<footer>$2</footer>
+</blockquote>]]></content>
+	<tabTrigger>esuna-blockquote1</tabTrigger>
+	<description>Esuna - Blockquote</description>
+	<scope>text.html</scope>
+</snippet>
