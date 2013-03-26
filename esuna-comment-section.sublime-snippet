@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+/** \$$1 */
+/*---------------------------------------------------------------------------*/
+
+$2]]></content>
+	<tabTrigger>esuna-comment1</tabTrigger>
+	<description>Esuna - Section Comment</description>
+	<scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

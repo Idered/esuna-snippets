@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<!-- @see dev.twitter.com/docs/cards -->
+<meta property="twitter:title" content="$1">
+<meta property="twitter:creator" content="@$2">
+<meta property="twitter:card" content="${3:summary}">
+<meta property="twitter:description" content="$4">
+<meta property="twitter:url" content="$5">]]></content>
+	<tabTrigger>esuna-twitter-card</tabTrigger>
+	<description>Esuna - Twitter card</description>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[<!-- @see developer.mozilla.org/en-US/docs/Controlling_DNS_prefetching -->
+<link rel="dns-prefetch" href="//p.twitter.com">
+<link rel="dns-prefetch" href="//cdn.api.twitter.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//platform.twitter.com">]]></content>
+	<tabTrigger>esuna-dns-prefetch</tabTrigger>
+	<description>Esuna - DNS Prefetch</description>
+	<scope>text.html</scope>
+</snippet>
