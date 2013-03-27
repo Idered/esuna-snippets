@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[<!-- @see ogp.me -->
-<meta property="og:title" content="$1" />
-<meta property="og:type" content="${2:website}" />
-<meta property="og:description" content="$3" />
-<meta property="og:url" content="$4">]]></content>
+<meta name="og:title" content="$1" />
+<meta name="og:type" content="${2:website}" />
+<meta name="og:description" content="$3" />
+<meta name="og:url" content="$4">]]></content>
 	<tabTrigger>esuna-open-graph</tabTrigger>
 	<description>Esuna - Open Graph card</description>
 	<scope>text.html</scope>

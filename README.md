@@ -20,7 +20,7 @@ This method is curently not available but soon, it'll be.
 ```CSS
 
 
-/** $1
+/** $1 */
 /*---------------------------------------------------------------------------*/
 
 $2
@@ -51,10 +51,10 @@ $1
 
 ```CSS
 <!-- @see ogp.me -->
-<meta property="og:title" content="$1" />
-<meta property="og:type" content="${2:website}" />
-<meta property="og:description" content="$3" />
-<meta property="og:url" content="$4">
+<meta name="og:title" content="$1" />
+<meta name="og:type" content="${2:website}" />
+<meta name="og:description" content="$3" />
+<meta name="og:url" content="$4">
 ```
 
 
@@ -62,11 +62,12 @@ $1
 
 ```CSS
 <!-- @see dev.twitter.com/docs/cards -->
-<meta property="twitter:title" content="$1">
-<meta property="twitter:creator" content="@$2">
-<meta property="twitter:card" content="${3:summary}">
-<meta property="twitter:description" content="$4">
-<meta property="twitter:url" content="$5">
+<meta name="twitter:card" content="${1:summary}">
+<meta name="twitter:creator" content="@$2">
+<meta name="twitter:site" content="@$3">
+<meta name="twitter:url" content="$4">
+<meta name="twitter:title" content="$5">
+<meta name="twitter:description" content="$6">
 ```
 
 
